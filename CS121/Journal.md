@@ -27,7 +27,7 @@ To assign an integer to a variable, declare it as an integer using int wage, and
 ex: int wage;
     wage = 20;
 
-  public class Salary {                       
+ ' public class Salary {                       
 
   public static void main (String [] args) {
       int wage;
@@ -37,7 +37,7 @@ ex: int wage;
       System.out.print("Salary is ");       
       System.out.println(wage * 40 * 52);   
   }
-}
+}'
 
 In above code, the variable wage **HOLDS** the value of 20, it is not an input.
 
