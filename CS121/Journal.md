@@ -27,7 +27,7 @@ To assign an integer to a variable, declare it as an integer using int wage, and
 ex: int wage;
     wage = 20;
 
- ' public class Salary {                       
+  public class Salary {                       
 
   public static void main (String [] args) {
       int wage;
