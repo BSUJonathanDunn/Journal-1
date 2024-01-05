@@ -120,9 +120,13 @@ We should also compile manmy times, make sure to compile after a couple of lines
 #### Definitions
 **bits:**(binary digits) are the 0s and 1s that  computers use to do computations. 1s represent a positive voltage and 0s are zero voltage. 
     1s allow electricity to flow, 0s don't, which tell the computer how to calculate.
+    
 **processor:** numerous switches used in sequences to process specific calculations
+
 **instructions:** each calculation  was called an instructions.
+
 **memory:**a circuit that can store 0s and 1s in each of a series of thousands of addressed locations, like a series of addressed mailboxes that each can store an envelope (the 0s and 1s). Instructions operate on data, which is also stored in memory locations as 0s and 1s.
+
 **machine instructions:** Instructions represented as 0s and 1s
 **executable program:** sequence of machine instructions
 **assembly language instructions:** Because 0s and 1s are hard to comprehend, programmers soon created programs called assemblers to automatically translate human readable instructions into machine language
