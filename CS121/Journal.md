@@ -125,16 +125,60 @@ We should also compile manmy times, make sure to compile after a couple of lines
 
 **instructions:** each calculation  was called an instructions.
 
-**memory:**a circuit that can store 0s and 1s in each of a series of thousands of addressed locations, like a series of addressed mailboxes that each can store an envelope (the 0s and 1s). Instructions operate on data, which is also stored in memory locations as 0s and 1s.
+**memory:** a circuit that can store 0s and 1s in each of a series of thousands of addressed locations, like a series of addressed mailboxes that each can store an envelope (the 0s and 1s). Instructions operate on data, which is also stored in memory locations as 0s and 1s.
 
 **machine instructions:** Instructions represented as 0s and 1s
+
 **executable program:** sequence of machine instructions
+
 **assembly language instructions:** Because 0s and 1s are hard to comprehend, programmers soon created programs called assemblers to automatically translate human readable instructions into machine language
 **high-level languages** upport programming using formulas or algorithms, so a programmer could write a formula like: F = (9 / 5) * C + 32.
+
 **compilers:** programs that automatically translate high-level language programs into executable programs.
+
 **bytecode:**  compiler generate an executable using machine instructions of a "virtual" processor
-** virtual machine:** executes the instructions in the bytecode
+
+**virtual machine:** executes the instructions in the bytecode
+
 #### Observations
 
+### 1.7 Computer tour
 
+#### Definitions
+
+**Input/output devices:** Ex: Screens(displays terms to a user), Keyboard(allows input from user), mouse, printers, touchscreens, speakers, microphones. Also called **peripherals**
+
+**Storage:** a _disk_ is something that can store data and files. Usuall non volotile(Means maintains data even when not in use) They do so by orienting magnetic particles in a 0 or 1 position. The disk spins under a head that pulses electricity at just the right times to orient specific particles _Flash drives_ store 0s and 1s in a non-volatile memory, rather than disk by tunneling electrons into special circuits on the memory's chip and removing them with a "flash" of electricity that draws the electrons back out. 
+
+**Memory: RAM (random-access memory):** is volatile memory that reads data from storage and is designed such that any address can be accessed much faster than disk. The "random access" term comes from being able to access any memory location quickly and in arbitrary order, without having to spin a disk to get a proper location under a head. RAM is costlier per bit than disk, due to RAM's higher speed. RAM chips typically appear on a printed-circuit board along with a processor chip.  Memory size is typically listed in bits or in bytes, where a **byte** is 8 bits. 
+
+**Processor:** runs the computer's programs, reading and executing instructions from memory, performing operations, and reading/writing data from/to memory. When powered on, the processor starts executing the program whose first instruction is (typically) at memory location 0. That program is commonly called the BIOS (basic input/output system), which sets up the computer's basic peripherals. The processor then begins executing a program called an operating system (OS). The operating system allows a user to run other programs and interfaces with the many other peripherals. Processors are also called CPUs, a processor may contain a small amount of RAM on its own chip, called cache memory, accessible in one clock tick rather than several, for maintaining a copy of the most-used instructions/data.
+
+**Clock:** A processor's instructions execute at a rate governed by the processor's clock, which ticks at a specific frequency. Processors have clocks that tick at rates such as 1 MHz (1 million ticks/second) for an inexpensive processor ($1) like those found in a microwave oven or washing machine, to 1 GHz (1 billion ticks/second) for costlier ($10-$100) processors like those found in mobile phones and desktop computers. Executing about 1 instruction per clock tick, processors thus execute millions or billions of instructions per second.
+
+**Moore's Law:** the doubling of Integrated Circuit capacity roughly every 18 months, which continued for several decades.
+
+#### Observations
+
+### 1.8 Language history
+
+#### Definitions
+
+**C:** In 1978, Brian Kernighan and Dennis Ritchie published a book on this new high level programming language.
+
+**C++:** adding constructs to support a style of programming known as object-oriented programming, along with other improvements from the original C high level language. First book published about it was in 1985.
+
+**Java:** language with the intent of creating a language whose executable could be ported to different processors.  had a C/C++ style and for portability reasons was designed to execute on a virtual machine. First public release was 1995, development began in 1991.
+
+#### Observations
+
+### 1.9 Problem solving
+
+#### Definitions
+
+**problem solving:** creating a methodical solution to a given task. 
+
+**computational thinking:** The thought processes needed to build correct, precise, logical programs  
+
+#### Observations
 
